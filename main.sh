@@ -53,7 +53,7 @@ fi
 echo "↓ Proxies count (default 100):"
 read PROXY_COUNT
 if [[ ! "$PROXY_COUNT" ]]; then
-  PROXY_COUNT=1
+  PROXY_COUNT=100
 fi
 
 ####
