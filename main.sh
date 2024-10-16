@@ -50,7 +50,7 @@ if [[ ! "$PROXY_START_PORT" ]]; then
 fi
 
 ####
-echo "↓ Proxies count (default 1):"
+echo "↓ Proxies count (default 100):"
 read PROXY_COUNT
 if [[ ! "$PROXY_COUNT" ]]; then
   PROXY_COUNT=1
